@@ -96,3 +96,26 @@ const icons = [
         family: 'fas',
     },
 ];
+
+print(icons);
+  
+/*----- funzioni ---- */
+ function print(array){
+
+  array.forEach((element) => {
+    console.log(element);
+
+    const {name, prefix, family} = element;
+
+    const elementHTML = `
+    <div>
+      <i class="${family} ${prefix}${name}"></i>
+      <div class="title">${name.toUpperCase()}</div>
+    </div>
+    `;
+
+    document.getElementById('icons').innerHTML += elementHTML;
+  
+  });
+
+ }
