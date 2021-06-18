@@ -11,4 +11,19 @@ h1{
 .filter {
     text-align: center;
     background-color: #29b1dd;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+}
+
+#icons-container{
+    height: calc(100vh - 140px);
+    background-color: #dddddd;
 }
