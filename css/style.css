@@ -4,8 +4,20 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow: hidden;
+}
+
+.header{
+    height:70px;
+    width: 100%;
+}
+
 h1{
-    color: #29b1dd;
+    position: absolute;
+    left:50px;
+    bottom: 0px;
+    color:#29B1DD;
 }
 
 .filter {
@@ -26,4 +38,27 @@ h3{
 #icons-container{
     height: calc(100vh - 140px);
     background-color: #dddddd;
+}
+
+.menu{
+    background-color: #29B1DD;
+    height:70px;
+    width:100%; 
+    line-height: 70px;     
+}
+
+.box{
+    background-color:white;
+    height: 150px;
+    width: 200px;
+    border-radius: 10%;
+    box-shadow: lightgrey;
+    text-align: center;
+    line-height: 160px;
+}
+
+.icons{
+    overflow-x: auto;
+    overflow-x: hidden;
+    height: calc(100vh - 140px);
 }
